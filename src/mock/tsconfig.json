@@ -1,0 +1,8 @@
+{
+  "menuList": [
+    {"label": "CSS","children": [{"label": "图形","path": "/graphics"}]},
+    {"label": "PC端组件库","children": [{"label": "ant_Design","path": "/antdesign"},{"label": "element","path": "/element"}]},
+    {"label": "APP端组件库","children": [{"label": "vant_Ui","path": "/vantUi"}]},
+    {"label": "图表","children": [{"label": "echart","path": "/echart"}]}
+  ]
+}
