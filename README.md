@@ -8,6 +8,9 @@
      pc端ui框架———————————ant_design of vue
      npm install ant-design-vue --save
 
+     pc端ui框架———————————element
+     npm i element-ui -S
+
      图表—————————————————echart
      npm install echarts --save
 

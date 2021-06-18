@@ -15,6 +15,15 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import antplugins from "./components/ant_plugins";
+import element_plugins from './components/element_plugins'
+import vant_plugins from './components/vant_plugins'
+import echart_plugins from './components/echart_plugins'
+
+Vue.use(antplugins);
+Vue.use(element_plugins);
+Vue.use(vant_plugins);
+Vue.use(echart_plugins);
 
 Vue.use(ElementUI);
 

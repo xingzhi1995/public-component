@@ -1,16 +1,13 @@
 <template>
   <div id="echart">
-    <vlineechart></vlineechart>
-    <vpiechart></vpiechart>
+    <vLineEchart></vLineEchart>
+    <vPieChart></vPieChart>
   </div>
 </template>
 
 <script>
-  import vlineechart from '../components/echart/VLineEchart'
-  import vpiechart from '../components/echart/VPieChart'
   export default {
     name: "echart",
-    components:{vlineechart,vpiechart}
   }
 </script>
 
