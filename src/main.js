@@ -19,6 +19,7 @@ import antplugins from "./components/ant_plugins";
 import element_plugins from './components/element_plugins'
 import vant_plugins from './components/vant_plugins'
 import echart_plugins from './components/echart_plugins'
+import '../src/style/style.styl'
 
 Vue.use(antplugins);
 Vue.use(element_plugins);

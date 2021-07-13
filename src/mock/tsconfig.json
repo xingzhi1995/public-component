@@ -1,8 +1,19 @@
 {
   "menuList": [
     {"label": "CSS","children": [{"label": "图形","path": "/graphics"}]},
-    {"label": "PC端组件库","children": [{"label": "ant_Design","path": "/antdesign"},{"label": "element","path": "/element"}]},
-    {"label": "APP端组件库","children": [{"label": "vant_Ui","path": "/vantUi"}]},
-    {"label": "图表","children": [{"label": "echart","path": "/echart"}]}
+    {"label": "PC端组件库","children": [
+      {"label": "ant_Design","path": "/antdesign"},
+      {"label": "element","path": "/element"}
+    ]},
+    {"label": "APP端组件库","children": [
+      {"label": "vant_Ui","path": "/vantUi"},
+      {"label": "app_Loading","path": "/app_Loading"}
+    ]},
+    {"label": "图表","children": [{"label": "echart","path": "/echart"}]},
+    {"label": "动画","children": [
+      {"label": "loading","path": "/pc_loading"},
+      {"label": "交错动画","path": "/interlacedAnimation"},
+      {"label": "3Dloading","path": "/threeD_loading"}
+    ]}
   ]
 }
